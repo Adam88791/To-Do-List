@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #36383d;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: auto;
+}
+
+.container {
+    border: orangered 2px solid;
+    border-radius: 10px;
+    padding: 2rem;
+    width: auto;
+}
+
+.container h2 {
+    color: white;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.container input {
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    padding: 15px;
+}
+.container input:focus {
+    outline: orangered;
+    
+}
+
+.container button {
+    height: 40px;
+    width: 90px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    padding: 0 1rem;
+    cursor: pointer;
+    margin-left: 10px;
+    float: right;
+    transition: all 0.2s ease;
+    
+}
+.container button:hover {
+    background-color: #eb684b;
+    transform: scale(0.93);
+}
+
+.container #task-container .task-div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border-radius: 5px;
+    border: #eb684b 1px solid;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.container #task-container .task-div p  {
+    font-size: 1.2rem;
+    align-items: center;
+    color: white;
+}
+.container #task-container .task-div button{
+    height: 25px;
+    width: 70px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 0 1rem;
+    cursor: pointer;
+    margin-left: 95px;
+    transition: all 0.2s ease;
+}
+
+@media (max-width: 450px) {
+    .container {
+        width: 90%;
+    }
+    
+    .container input {
+        width: 60%;
+    }
+}

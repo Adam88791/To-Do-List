@@ -13,6 +13,7 @@ A simple **Todo application** built with JavaScript that allows users to:
    - Enter a task in the input field
    - Click "Add" to append it to the list
    - Tasks are saved automatically in `localStorage`
+   - Task can't be add two times
 
 2. **Delete Task**
    - Each task has a "Delete" button
@@ -35,3 +36,6 @@ A simple **Todo application** built with JavaScript that allows users to:
 2. Open `index.html` in your browser
 3. Add your tasks and manage them easily
 
+
+Live Demo:
+https://adam88791.github.io/To-Do-List/
